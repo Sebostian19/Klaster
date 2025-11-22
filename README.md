@@ -6,7 +6,7 @@
 - Настройте балансировку Round-robin на 4 уровне.
 - На проверку направьте конфигурационный файл haproxy, скриншоты, где видно перенаправление запросов на разные серверы при обращении к HAProxy.
 
-Решение:
+### Решение:
 ### Конфигурационный файл: [haprox1.cfg](https://github.com/Sebostian19/Klaster/blob/main/haproxy1.cfg)
 ### Скриншоты перенаправления запросов на разные серверы при обращении к HAProxy.
 ![skrin 1](https://github.com/Sebostian19/Klaster/blob/main/1.png)
@@ -17,3 +17,9 @@
 - Настройте балансировку Weighted Round Robin на 7 уровне, чтобы первый сервер имел вес 2, второй - 3, а третий - 4
 - HAproxy должен балансировать только тот http-трафик, который адресован домену example.local
 - На проверку направьте конфигурационный файл haproxy, скриншоты, где видно перенаправление запросов на разные серверы при обращении к HAProxy c использованием домена example.local и без него.
+
+### Решение:
+### Конфигурационный файл: [haprox2.cfg](https://github.com/Sebostian19/Klaster/blob/main/haproxy2.cfg)
+### Скриншоты перенаправления запросов на разные серверы при обращении к HAProxy.
+![skrin 1](https://github.com/Sebostian19/Klaster/blob/main/3.png)
+![skrin 2](https://github.com/Sebostian19/Klaster/blob/main/4.png)
