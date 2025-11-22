@@ -9,8 +9,8 @@
 Решение:
 Конфигурационный файл: [haprox1.cfg](https://github.com/Sebostian19/Klaster/blob/main/haproxy1.cfg)
 Скриншоты перенаправления запросов на разные серверы при обращении к HAProxy.
-[skrin 1](https://github.com/Sebostian19/Klaster/blob/main/1.png)
-[skrin 2](https://github.com/Sebostian19/Klaster/blob/main/2.png)
+![skrin 1](https://github.com/Sebostian19/Klaster/blob/main/1.png)
+![skrin 2](https://github.com/Sebostian19/Klaster/blob/main/2.png)
 
 ### Задание 2
 - Запустите три simple python сервера на своей виртуальной машине на разных портах
